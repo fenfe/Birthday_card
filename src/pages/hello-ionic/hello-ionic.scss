@@ -1,0 +1,40 @@
+page-hello-ionic {
+    ion-content {
+        background-image: url('../../assets/imgs/yesjpg.jpg');
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        
+    }
+    
+    
+
+    .card-background-page {
+
+        ion-card {
+          position: relative;
+          text-align: center;
+          
+        }
+      
+       // .card-subtitle {
+         // font-size: 1.0em;
+        //  position: absolute;
+         // top: 52%;
+         // width: 100%;
+         // color: #fff;
+        //}
+      
+      }
+
+  
+  #btn-message {
+    background: rgb(194, 22, 22);
+   
+  position: absolute;
+  bottom: 5%;
+  left: 0%;
+  right: 0%;
+}
+
+}

@@ -1,0 +1,61 @@
+page-happy {
+     .text {
+               color: white;
+               margin-top: 40%;
+               text-align: center;
+               font-family: 'Indie Flower', cursive;
+               text-shadow: 1px 1px 2px black, 0 0 25px rgb(105, 19, 13), 0 0 5px darkblue;
+               animation-name: animate;
+                animation-duration: 2s;
+                animation-timing-function: ease-in-out;
+              }
+
+              h1 {
+                font-size: 8vw;
+              }
+
+              #friend {
+                font-size: 15vw;
+                text-shadow: 5px 5px 89px rgb(149, 13, 187);
+              }
+
+              #love {
+                font-size: 15vw;
+                padding-top: 30px;
+                animation-name: animate;
+                animation-duration: 4s;
+                animation-timing-function: ease-in-out;
+              }
+
+              @keyframes animate{
+                0% { opacity: 0;
+                    transform: rotate(60deg);
+                }
+                50% {
+                  transform: rotate(-60deg);
+                }
+                100%{opacity: 1;
+                  transform: rotate(0deg);
+                }
+              }
+
+              ion-content {
+                background-image: url('../../assets/imgs/friends.jfif');
+               background-size: cover;
+                background-repeat: no-repeat;
+               background-position: center center;
+            
+               
+            }
+
+
+               
+  }
+               
+        
+  
+    
+
+  
+
+   
